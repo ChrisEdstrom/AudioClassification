@@ -115,14 +115,14 @@ class App(tk.Frame):
 #Compare Image Features field
         self.text2 = tk.Text(self.master, height = 6, width = 60, wrap = 'word',bg=bg)
         vertscroll = tk.Scrollbar(self.master)
-        vertscroll.config(command=self.text1.yview)
+        vertscroll.config(command=self.text2.yview)
         self.text2.config(yscrollcommand=vertscroll.set)
         self.text2.grid(row=10,column=2)
         vertscroll.grid(row=10,column=20, sticky='NS')
 #Compare Image field
         self.text3 = tk.Text(self.master, height = 6, width = 60, wrap = 'word',bg=bg)
         vertscroll = tk.Scrollbar(self.master)
-        vertscroll.config(command=self.text1.yview)
+        vertscroll.config(command=self.text3.yview)
         self.text3.config(yscrollcommand=vertscroll.set)
         self.text3.grid(row=12,column=2)
         vertscroll.grid(row=12,column=20, sticky='NS')

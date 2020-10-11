@@ -14,7 +14,7 @@ Load_Create Requirements:
 tKinter_Audio-Image_Feature_ComparisonGUI Requirements:
 - A wav for audio feature comparison or png file for image comparison
 - a feature CSV
-  - A audio feature CSV; i.e. audio_characteristics.csv created from Load_Create, for audio feature comparison
+  - An audio feature CSV; i.e. audio_characteristics.csv created from Load_Create, for audio feature comparison
   - An image feature CSV; i.e. spectogram_characteristics.csv created from Load_Create, for image feature comparison
 - A folder of images; i.e. AudioClassification/spectogram
 
